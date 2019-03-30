@@ -1,0 +1,17 @@
+[
+  {
+      "id": "tier1",
+      "isActive": true,
+      "name": "Front Door"
+    },
+    {
+      "id": "tier2",
+      "isActive": true,
+      "name": "Tech Success"
+    },
+    {
+      "id": "qa",
+      "isActive": true,
+      "name": "Quality Assurance"
+    }
+  ]
