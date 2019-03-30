@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
       <header>OFFICE MAP</header>
-        <Employees/>
+        <Teams/>
         <Map/>
       </div>
     );
