@@ -13,7 +13,7 @@ class Map extends React.Component {
     render () {
       return (
         <div>
-        <div>MAPS DIV</div>
+        <div className="mapdiv">MAPS DIV</div>
         <Teams/>
         <Employees/>
         </div>
