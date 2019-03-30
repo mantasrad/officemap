@@ -2,14 +2,17 @@
   text-align: center;
 }
 
-body, html, #root, {
+.hidden {
+  display: none;
+}
+/* .mapdiv{
   height: auto;
-  width:100%
-}
-
-.mapdiv {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-image: url('./officemap.jpg');
-}
+} */
 
 .App-link {
   color: #61dafb;
