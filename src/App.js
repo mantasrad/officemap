@@ -6,7 +6,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          Office Map
+          Office Map v2
         </header>
       </div>
     );
