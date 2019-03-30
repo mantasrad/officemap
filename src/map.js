@@ -9,7 +9,7 @@ class Map extends React.Component {
     render () {
 
       return (
-        <div>
+        <div id="mapWrapper">
         <Canvas/>
         </div>
       )
