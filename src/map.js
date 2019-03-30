@@ -14,8 +14,6 @@ class Map extends React.Component {
       return (
         <div>
         <div className="mapdiv">MAPS DIV</div>
-        <Teams/>
-        <Employees/>
         </div>
       )
     }
