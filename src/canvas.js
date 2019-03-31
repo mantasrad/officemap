@@ -22,10 +22,9 @@ canvas.addEventListener('click', function() { }, false);
 canvas.addEventListener('click', function(event) {
    let xVal = event.pageX - elemLeft
    let yVal = event.pageY - elemTop;
-   console.log(xVal, yVal);
    elements.forEach(function(ele) {
       if (yVal > ele.top && yVal < ele.top + ele.height && xVal > ele.left && xVal < ele.left + ele.width) {
-         alert("Mantas ");
+         console.log(xVal + " " + yVal);
       }
    });
  }, false);

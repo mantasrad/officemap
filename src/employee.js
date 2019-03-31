@@ -1,29 +1,24 @@
 import React, {Component} from 'react'
 import App from './App.js'
 import Teams from './teams.js'
-import Employee from './employee'
+import Employees from './employees.js'
 import komandos from './komandosv2.json'
 
-class Employees extends React.Component {
+class Employee extends React.Component {
   constructor(props) {
       super(props);
       this.state = {
-        receivedStuff: {}
+        employeeData: []
       };
     }
 
-
     render () {
-
       return (
-        <div id="employeesWrapper">
-        <div>List of Employees</div>
-      <ul>
 
-        </ul>
+        <div id="employeeWrapper">
         </div>
       )
     }
 }
 
-export default Employees
+export default Employee

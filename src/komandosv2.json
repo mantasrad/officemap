@@ -41,7 +41,39 @@
       "id": "tier1",
       "isActive": true,
       "name": "Front Door",
-      "employees": []
+      "employees": [{
+          "id": "Jonas_Vogelo",
+          "isActive": true,
+          "age": 25,
+          "firstName": "Jonas",
+          "lastName": "Vogelo",
+          "gender": "male",
+          "email": "jonas.vogelo@bazaarvoice.com",
+          "phone": "XXXXXXXXX",
+          "slack": "https://bazaarvoice.slack.com/messages/DHHR58JTY"
+        },
+        {
+          "id": "Evelina_Kniezauskaite",
+          "isActive": true,
+          "age": 23,
+          "firstName": "Evelina",
+          "lastName": "Kniezauskaite",
+          "gender": "female",
+          "email": "evelina.kniezauskaite@bazaarvoice.com",
+          "phone": "XXXXXXXXXXXX",
+          "slack": "https://bazaarvoice.slack.com/messages/DH4Q59AMR"
+        },
+        {
+          "id": "Robertas_Atkociunas",
+          "isActive": true,
+          "age": 25,
+          "firstName": "Robertas",
+          "lastName": "Atkociunas",
+          "gender": "male",
+          "email": "robertas.atkociunas@bazaarvoice.com",
+          "phone": "860000000",
+          "slack": "https://bazaarvoice.slack.com/messages/DH60VHLCX"
+        }]
     },
   "qa": {
         "id": "qa",

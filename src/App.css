@@ -79,3 +79,7 @@ button {
   font: italic 20px Serif; /* works */
   font: 30px Fantasy; /* works */
 }
+
+.emp-hidden {
+  display:none;
+}
