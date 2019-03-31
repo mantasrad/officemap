@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import App from './App.js'
-import Employees from './employees.js'
 import komandos from './komandosv2.json'
 
 class Teams extends Component {
@@ -22,11 +21,14 @@ var newestList
 newList = Object.keys(oldList);
 newestList = newList.filter(bam => bam === e.target.getAttribute('data-nr'));
 this.setState({ listOfTeams: komandos, currentTeam: newestList });
+
          }
        }
 
-    render () {
 
+
+    render () {
+const globalTeam = this.state.listOfTeams[this.state.currentTeam];
       return (
         <div>
         <div>TEAMS</div>
@@ -42,8 +44,29 @@ this.setState({ listOfTeams: komandos, currentTeam: newestList });
         </ul>
         <div employeesTeam={this.state.listOfTeams[this.state.currentTeam]}></div>
         <ul className="emp-hidden">
-        {this.state.listOfTeams[this.state.currentTeam] ? console.log(this.state.listOfTeams[this.state.currentTeam]) : console.log('false')}
+        {this.state.listOfTeams[this.state.currentTeam] ? <Employees globalTeam={globalTeam} /> : console.log('false')}
         </ul>
+        </div>
+      )
+    }
+}
+
+
+class Employees extends Component {
+  constructor(props) {
+      super(props);
+      this.state = {
+        receivedStuff: {}
+      };
+    }
+
+    render () {
+      let test = this.props.globalTeam.employees;
+      return (
+
+        <div id="employeesWrapper">
+      <ul>{test.map((currentValue, index) => <li key={currentValue.id}>{currentValue.firstName + " " + currentValue.lastName}</li>)}
+      </ul>
         </div>
       )
     }

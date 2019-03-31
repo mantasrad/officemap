@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import App from './App.js'
-import Employees from './employees.js'
 import Teams from './teams.js'
 class Canvas extends React.Component {
 
@@ -17,7 +16,7 @@ class Canvas extends React.Component {
     img.onload = () => {
       ctx.drawImage(img, 0, 0)
 
-ctx.stroke();
+
 canvas.addEventListener('click', function() { }, false);
 canvas.addEventListener('click', function(event) {
    let xVal = event.pageX - elemLeft
