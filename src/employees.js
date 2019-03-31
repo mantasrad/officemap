@@ -1,25 +1,28 @@
 import React, {Component} from 'react'
 import App from './App.js'
 import Teams from './teams.js'
-import darbuotojai from './darbuotojai.json'
+import komandos from './komandosv2.json'
 
 class Employees extends React.Component {
   constructor(props) {
       super(props);
       this.state = {
-        listOfEmployees: darbuotojai
+        listOfEmployees: komandos
       };
     }
     render () {
       return (
+
         <div id="employeesWrapper">
         <div>This is employees div</div>
         <ul>
-          {darbuotojai.map((darbuotojas) =>
-            <li key={darbuotojas.id} className="book">
-            <p>{darbuotojas.firstName + " " + darbuotojas.lastName}</p>
+        {Object.keys(this.state.listOfEmployees).map((key) =>
+          <li key={this.state.listOfEmployees[key].id} className="komanda">
+          {console.log(this.state.listOfEmployees[key].id)}
+
             </li>
-          )}
+        )
+        }
           </ul>
         </div>
       )

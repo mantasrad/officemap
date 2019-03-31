@@ -29,6 +29,7 @@ canvas.addEventListener('click', function(event) {
       }
    });
  }, false);
+
  elements.push({
    colour:"#1C2128",
    width: 40,
@@ -58,8 +59,7 @@ canvas.addEventListener('click', function(event) {
 if (ctx.isPointInPath(x,y)){
   ctx.fillStyle = "red"
 } else {
-  ctx.fillStyle = "transparent";
-  ctx.restore();
+  ctx.fillStyle = "blue";
 }
 
     ctx.fill();

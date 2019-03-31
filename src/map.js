@@ -10,7 +10,6 @@ class Map extends React.Component {
 
       return (
         <div id="mapWrapper">
-        <Canvas/>
         </div>
       )
     }

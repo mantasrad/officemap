@@ -3,6 +3,7 @@ import './App.css';
 import Teams from './teams.js';
 import Employees from './employees.js'
 import Map from './map.js'
+import Canvas from './canvas.js'
 
 class App extends Component {
   render() {
@@ -10,7 +11,8 @@ class App extends Component {
       <div className="App">
       <header>OFFICE MAP</header>
         <Teams/>
-        <Map/>
+        <Canvas/>
+        <Employees/>
       </div>
     );
   }

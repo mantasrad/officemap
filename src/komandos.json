@@ -2,16 +2,51 @@
   {
       "id": "tier1",
       "isActive": true,
-      "name": "Front Door"
+      "name": "Front Door",
+      "employees": []
     },
     {
       "id": "tier2",
       "isActive": true,
-      "name": "Tech Success"
+      "name": "Tech Success",
+      "employees": [{
+          "id": "Evaldas_Simanskas",
+          "isActive": true,
+          "age": 28,
+          "firstName": "Evaldas",
+          "lastName": "Simanskas",
+          "gender": "male",
+          "email": "evaldas.simanskas@bazaarvoice.com",
+          "phone": "863060596",
+          "slack": "https://bazaarvoice.slack.com/messages/DGC4L9F0S"
+        },
+        {
+          "id": "Mantas_Radzvilavicius",
+          "isActive": true,
+          "age": 29,
+          "firstName": "Mantas",
+          "lastName": "Radzvilavicius",
+          "gender": "male",
+          "email": "mantas.radzvilavicius@bazaarvoice.com",
+          "phone": "867061615",
+          "slack": "https://bazaarvoice.slack.com/messages/DG2DRC59N"
+        },
+        {
+          "id": "Erikas_Pomelaika",
+          "isActive": true,
+          "age": 26,
+          "firstName": "Erikas",
+          "lastName": "Pomelaika",
+          "gender": "male",
+          "email": "erikas.pomelaika@bazaarvoice.com",
+          "phone": "860000000",
+          "slack": "https://bazaarvoice.slack.com/messages/DG7EEBN91"
+        }]
     },
     {
       "id": "qa",
       "isActive": true,
-      "name": "Quality Assurance"
+      "name": "Quality Assurance",
+      "employees": []
     }
   ]
