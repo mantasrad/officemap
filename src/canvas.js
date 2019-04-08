@@ -23,7 +23,7 @@ canvas.addEventListener('click', function(event) {
    let yVal = event.pageY - elemTop;
    elements.forEach(function(ele) {
       if (yVal > ele.top && yVal < ele.top + ele.height && xVal > ele.left && xVal < ele.left + ele.width) {
-         console.log(xVal + " " + yVal);
+console.log(xVal + " " + yVal)
       }
    });
  }, false);

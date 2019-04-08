@@ -79,6 +79,18 @@
         "id": "qa",
         "isActive": true,
         "name": "Quality Assurance",
-        "employees": []
+        "employees": [
+          {
+            "id": "Zilvinas_Stanevicius",
+            "isActive": true,
+            "age": 26,
+            "firstName": "Zilvinas",
+            "lastName": "Stanevicius",
+            "gender": "male",
+            "email": "zilvinas.stanevicius@bazaarvoice.com",
+            "phone": "860000000",
+            "slack": "https://bazaarvoice.slack.com/messages/DH60VHLCX"
+          }
+]
       }
 }
